@@ -1,0 +1,203 @@
+[
+  {
+    "name": "Jellyfin Enhanced",
+    "guid": "f69e946a-4b3c-4e9a-8f0a-8d7c1b2c4d9b",
+    "overview": "Jellyfin Enhanced and Jellyfin Elsewhere for a better Jellyfin experience.",
+    "description": "A combination of the Jellyfin Enhanced and Jellyfin Elsewhere userscripts, providing a comprehensive set of tweaks and features for Jellyfin.",
+    "owner": "n00bcodr",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/n00bcodr/Jellyfin-Enhanced/master/images/icon.png",
+    "versions": [
+      {
+        "changelog": "- Update configPage.html\n - Revert \"Add File Size and Watched % for BoxSets and Playlists\"\n - Add centralized observer management and performance helpers\n - Fix elsewhere where it does not consider filtered services",
+        "targetAbi": "10.11.0.0",
+        "version": "9.7.1.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.7.1.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "8A0C648BFCB2EA6AF6EDC43D0721C65C",
+        "timestamp": "2025-12-14T00:49:40"
+      },
+      {
+        "changelog": "- Update audio language map and implement scroll for more than 3 tracks\n - Improve logic of letterboxed links\n - Improve auto request : rewrite threshold logic and add Jellyseerr validation\n - Add File Size and Watched % for BoxSets and Playlists",
+        "targetAbi": "10.11.0.0",
+        "version": "9.7.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.7.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "FD888976DCE062EC79D7D29588862461",
+        "timestamp": "2025-12-12T19:41:29"
+      },
+      {
+        "changelog": "- Fix repeated API calls for arr tags and arr tag links\n - Initialize scripts only if the feature is enabled.\n - Fix duplicate shadows for subtitles\n - Display Genre Tags for Seasons",
+        "targetAbi": "10.11.0.0",
+        "version": "9.6.3.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.6.3.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "F263F9D94F9CE639A5AB66488F3348F7",
+        "timestamp": "2025-12-06T17:49:28"
+      },
+      {
+        "changelog": "- Add Brazilian language mapping to country codes\n - Add Russian language support for genre icons\n - Fix advanced auto request\n - Add option to select all seasons",
+        "targetAbi": "10.11.0.0",
+        "version": "9.6.2.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.6.2.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "23090AA41A6140E2EE34ABC7C9F0AA68",
+        "timestamp": "2025-11-30T12:54:49"
+      },
+      {
+        "changelog": "- Add admin page selectors to ignore lists in tag scripts\n - Add Series/Season language detection for item details\n - Add data-lang attributes for CSS targeting\n - Update configPage.html\n - Add Enhanced Settings link to user preferences menu",
+        "targetAbi": "10.11.0.0",
+        "version": "9.6.1.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.6.1.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "8329DEBA1120B35159B809AFFE8515B4",
+        "timestamp": "2025-11-24T12:55:42"
+      },
+      {
+        "changelog": "\n - Add custom branding options for Elsewhere panel\n - feat: watch progress for item details\n - add styling to support vanilla jellyfin css\n - Add language selection and cache clearing to UI\n - Populate Language Tags in IPEP\n - Improve genre and language detection for Series/Season\n - Add Open Episode Preview keyboard shortcut\n - Better close subtitles dialog\n - Add Jellyseerr URL mapping support\n - Persist active tab in config settings\n - Align placeholders vertically in feature tooltips\n - Add automatic season request feature\n - Update README with download badges for versions\n - Add Jellyseerr watchlist sync and auto-watchlist features\n - Improve translation caching with versioning\n - Update Jellyseerr integration and translation caching docs\n - Improve modal accessibility and keyboard navigation\n - Update README.md\n - Fix version specific logic!",
+        "targetAbi": "10.11.0.0",
+        "version": "9.6.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.6.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "715DFB6D3F318AE3A75EA96B4C78EB9D",
+        "timestamp": "2025-11-23T17:50:12"
+      },
+      {
+        "changelog": "\n - Ignore tags on chapter card image container\n - Update plugin.js\n - feat: file size info for shows and seasons\n - feat: fetch translations from GitHub with caching and fallback\n - fix: repair translation validation workflow\n - Add Missed translation keys for Elsewhere panel UI elements\n - add spacing after arr-tag-link-icon",
+        "targetAbi": "10.11.0.0",
+        "version": "9.5.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.5.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "6C18138D156399C642FE05631A20DBE4",
+        "timestamp": "2025-11-21T17:52:26"
+      },
+      {
+        "changelog": "- Add Brazilian Portuguese localization\n - Add Turkish localization\n - Fix ampersand replacement in series names for Sonarr links[#182](https://github.com/n00bcodr/Jellyfin-Enhanced/pull/182)\n - Improve user retrieval logic in plugin initialization to fix translations [#168](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/168)\n - Add delayed pause screen with interaction reset [#179](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/179)\n - Fix review layout to support different themes [#178](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/178)\n - Add Letterboxd external links[#181](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/181)\n - Remove watchlist feature (moved to KefinTweaks)\n - Add *arr tags sync and display synced tags as clickable links[#157](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/157)\n - Improve 4K request popup positioning and button styles[#167](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/167)\n - Add option to disable tags on search page (Gelato compatibility)[#173](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/173)\n\n - Please add the manifest for 10.11 if you are on 10.11. https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json",
+        "targetAbi": "10.11.0.0",
+        "version": "9.4.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.4.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "3F3211D611A53891F52B64F55C8A669B",
+        "timestamp": "2025-11-20T06:36:32"
+      },
+      {
+        "changelog": "- Add endpoint for Jellyseerr partial requests setting",
+        "targetAbi": "10.11.0.0",
+        "version": "9.3.1.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.3.1.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "9C77A34AB07F391C8E82A97478CB5361",
+        "timestamp": "2025-11-03T16:28:15"
+      },
+      {
+        "changelog": "- 🐛[BUG] Unable to open user menu on WebOS Fixes [#148](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/148)\n - Prevent reviews from running on items without TMDB ID\n - Enable dynamic re-initialization for tag features\n - Improve audio language layout styling (especially on mobile)\n - Add default user settings initialization\n - Improve logging and write logs to JellyfinEnhanced Log file\n - Add manual refresh button to Jellyseerr results\n - Reset all user settings using config directories\n - Add support for Jellyseerr's partial TV season requests setting\n - Fix config check for provider icons on Jellyseerr cards",
+        "targetAbi": "10.11.0.0",
+        "version": "9.3.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.3.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "3D1B4DE706B823F7D2933C5D5BB1D874",
+        "timestamp": "2025-11-02T16:53:47"
+      },
+      {
+        "changelog": "- Update elsewhere.js resource URLs to use jsdelivr CDN\n - Fix quality tags for TV mode\n - Resetting LanguageTagsEnabled in ResetAllUserSettings\n - fix: add 'Remove from Continue Watching' option on right-click\n - Add 4K request support for Jellyseerr integration\n - Add support for Jellyseerr override rules in requests\n - Add tag position fields to default config mapping\n - Improve config page cache and reset descriptions\n\n - Please add the manifest for 10.11 if you are on 10.11. https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json",
+        "targetAbi": "10.11.0.0",
+        "version": "9.2.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.2.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "33547A4546C8B1DBD87F5B11F10F51B5",
+        "timestamp": "2025-10-30T06:26:09"
+      },
+      {
+        "changelog": "- Add [Authorize] to Jellyseerr and TMDB endpoints\n - Add check for TMDb link before adding ARR links\n - Enhance README with troubleshooting and error info\n - Add configurable tag cache TTL and cache clear for tags\n - Add language tags overlay with configurable positions for all tags\n - Add caching for file size and audio language lookups\n - Add theme detection and dynamic theming support\n - Refactor reviews processing intervals\n - Improve Continue Watching detection logic\n - Full Blown Release Notes Conversion!\n\n - Please add the manifest for 10.11 if you are on 10.11. https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json",
+        "targetAbi": "10.11.0.0",
+        "version": "9.1.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.1.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "AE147D37B4AC67DD40F7A69EBC6B270D",
+        "timestamp": "2025-10-28T06:06:32"
+      },
+      {
+        "changelog": "- Add placeholder and info for splash screen URL\n - Fix subtitle styling for Jellyfin 10.11\n - Watchlist from KefinTweaks\n - Add long press for 2x speed playback feature\n - Migrate Settings to Server!\n - Add option to link Jellyseerr site to Jellyseerr results\n - Add 'reviews expanded by default' setting\n",
+        "targetAbi": "10.11.0.0",
+        "version": "9.0.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.0.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "8B2A6A2798E65B1443F0ADA96EF0C508",
+        "timestamp": "2025-10-26T05:40:12"
+      },
+      {
+        "changelog": "- Refactor file size and audio language display logic (again!)\n - Refactor reviews.js\n - Restrict genre tag processing to Movie and Series cards\n - Fix HDR10+ regex to match 'hdr10plus' format\n - Show dash placeholder when no audio languages",
+        "targetAbi": "10.11.0.0",
+        "version": "8.1.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/8.1.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "6864136A939C673D2F97BDF041F1A73A",
+        "timestamp": "2025-10-22T05:59:01"
+      },
+      {
+        "changelog": "- 10.11 Support!",
+        "targetAbi": "10.11.0.0",
+        "version": "8.0.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/8.0.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "4571C59DCE6E606ABDBB946B9ABF890F",
+        "timestamp": "2025-10-20T11:37:06"
+      }
+    ]
+  },
+  {
+    "name": "JavaScript Injector",
+    "guid": "f5a34f7b-2e8a-4e6a-a722-3a216a81b374",
+    "overview": "Inject custom javascript(s) to the Jellyfin Web UI",
+    "description": "Inject custom javascript(s) to the Jellyfin Web UI",
+    "owner": "n00bcodr",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/n00bcodr/jellyfin-javascript-injector/main/icon.png",
+    "versions": [
+      {
+        "changelog": "- Implement timestamp cache-busting",
+        "targetAbi": "10.11.0.0",
+        "version": "3.2.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-JavaScript-Injector/releases/download/3.2.0.0/Jellyfin.Plugin.JavaScriptInjector_10.11.0.zip",
+        "checksum": "6E81F8C8F4E48F7A9E3335A3F81D91FA",
+        "timestamp": "2025-12-07T10:05:50"
+      },
+      {
+        "changelog": "- Revise repository URL instructions in README\n - refactor: create javascript helper\n - feat: add plugin interface\n - chore: remove unused imports\n - fix: dont validate payload in plugin interface\n - docs: fix example formatting",
+        "targetAbi": "10.11.0.0",
+        "version": "3.1.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-JavaScript-Injector/releases/download/3.1.0.0/Jellyfin.Plugin.JavaScriptInjector_10.11.0.zip",
+        "checksum": "EA07AEB608FB3CC7FC76302B45ACE4D2",
+        "timestamp": "2025-11-19T19:19:09"
+      },
+      {
+        "changelog": "- Fix script path for installations with base url",
+        "targetAbi": "10.11.0.0",
+        "version": "3.0.1.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-JavaScript-Injector/releases/download/3.0.1.0/Jellyfin.Plugin.JavaScriptInjector_10.11.0.zip",
+        "checksum": "C4EB15CDD6BB7A39F87BD096A69C76C0",
+        "timestamp": "2025-10-22T05:38:25"
+      },
+      {
+        "changelog": "- Support for 10.11",
+        "targetAbi": "10.11.0.0",
+        "version": "3.0.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-JavaScript-Injector/releases/download/3.0.0.0/Jellyfin.Plugin.JavaScriptInjector_10.11.0.zip",
+        "checksum": "1448F94FD472D789E0A2E711F6F929E2",
+        "timestamp": "2025-10-20T17:27:02"
+      }
+    ]
+  },
+  {
+    "name": "Jellyfin Tweaks",
+    "guid": "dfee3828-01df-49df-85b1-5c2b75e5ea1a",
+    "overview": "Tweaks for Jellyfin",
+    "description": "Adds useful tweaks to Jellyfin. Based on the original JellyTweaks by gam24.",
+    "owner": "n00bcodr",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/n00bcodr/JellyfinTweaks/master/Jellyfin.Plugin.JellyTweaks/images/thumb.png",
+    "versions": [
+      {
+        "changelog": "- Fix script path for installations with base url",
+        "targetAbi": "10.11.0.0",
+        "version": "3.0.1.0",
+        "sourceUrl": "https://github.com/n00bcodr/JellyfinTweaks/releases/download/3.0.1.0/Jellyfin.Plugin.JellyTweaks_10.11.0.zip",
+        "checksum": "039697408A4EDECD2159FE983DDEF2F6",
+        "timestamp": "2025-10-22T05:53:24"
+      },
+      {
+        "changelog": "- Support for 10.11",
+        "targetAbi": "10.11.0.0",
+        "version": "3.0.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/JellyfinTweaks/releases/download/3.0.0.0/Jellyfin.Plugin.JellyTweaks_10.11.0.zip",
+        "checksum": "73313429BE665341BDB2539BA69A557D",
+        "timestamp": "2025-10-20T17:25:23"
+      }
+    ]
+  }
+]
